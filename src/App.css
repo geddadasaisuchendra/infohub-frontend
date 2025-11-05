@@ -1,0 +1,103 @@
+/* container */
+.container {
+  position: relative;
+  min-height: 100vh;
+  background: white;
+  color: black;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Brand */
+.brand {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Main content */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Bottom navigation bar */
+.bottom-nav {
+  position: fixed;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2c2c2c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  padding: 20px 15px 20px 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.3rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.nav-item:hover {
+  color: #ffb400;
+  transform: scale(1.05);
+}
+
+.nav-item.active {
+  color: #ffb400;
+  text-decoration: none;
+}
+
+input, select {
+  margin: 5px;
+  padding: 12px;
+}
+button{
+  background: #2c2c2c;
+  color: white;
+  font-size: 1rem;
+  padding:10px;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: aliceblue;
+  color:black;
+}
+
+.weatherReport{
+  margin-top: 10px;
+  font-weight: normal;
+  text-align: right;
+  font-size: 1rem;
+  display:flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.temp{
+   font-size: 5rem; 
+   align-self: center; 
+   margin-top:40px;
+   
+}
+
+.cellicus{
+  font-size: 1.5rem;
+}
