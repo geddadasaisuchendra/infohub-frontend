@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8000"; // Change to your deployed backend URL later
+const BASE_URL = "https://infohub-backend-mnuj.onrender.com"; //backend deployed to render
 
 export async function getWeather(city) {
   const res = await fetch(`${BASE_URL}/weather?city=${city}`);
